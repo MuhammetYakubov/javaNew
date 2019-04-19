@@ -8,7 +8,7 @@ public class traingin {
 		
 		 int n = 5;
 		    
-		   
+		   //
 		     sign(n);
 		     
 		  }
