@@ -26,6 +26,7 @@ public class StringBuilderr {
 		System.out.println(sb);
 		sb.delete(3, 45);
 		System.out.println(sb);
+		System.out.println();
 		
 		
 		String s1="James";
