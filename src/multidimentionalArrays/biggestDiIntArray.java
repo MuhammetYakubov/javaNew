@@ -8,8 +8,10 @@ public static void main(String[] args) {
 public static void biggestNum(int[] []num) {
 	int counter = Integer.MIN_VALUE; 
 	for(int [] num1:num) {
+		
 		for(int j: num1) {
-		if(j > counter) {
+		
+			if(j > counter) {
 			counter = j;
 		}
 		}

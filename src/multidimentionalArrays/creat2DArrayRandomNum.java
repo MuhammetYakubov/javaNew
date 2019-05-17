@@ -3,7 +3,7 @@ package multidimentionalArrays;
 import java.util.Arrays;
 import java.util.Random;
 
-public class outerArray {
+public class creat2DArrayRandomNum {
 public static void main(String[] args) {
 	int [][] numm = getMultiArray(3, 4);
     

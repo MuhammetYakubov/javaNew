@@ -1,5 +1,7 @@
 package multidimentionalArrays;
 
+import java.util.Arrays;
+
 public class multiTeams {
 public static void main(String[] args) {
 	 String [][] groups = new String[3][];
@@ -24,9 +26,9 @@ public static void main(String[] args) {
 //   // Print all teams using Arrays toString method.
 //   // team1 ==> groups[0], team2 ==> groups[1]
      
-//   System.out.println(Arrays.toString(groups[1]));
-//   System.out.println(Arrays.toString(groups[2]));
-//   System.out.println();
+   System.out.println(Arrays.toString(groups[1]));
+   System.out.println(Arrays.toString(groups[2]));
+   System.out.println();
      // Print each teams members using Arrays toString and using loop.
 //   System.out.println(groups.length);
      for(int i = 0; i < groups.length; i++) {

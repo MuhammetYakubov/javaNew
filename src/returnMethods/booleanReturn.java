@@ -1,4 +1,4 @@
-package methods;
+package returnMethods;
 
 public class booleanReturn {
 public static void main(String[] args) {

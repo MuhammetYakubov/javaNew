@@ -2,12 +2,12 @@ package methods;
 
 import java.util.Arrays;
 
-public class overloadMethod {
+public class addWord2DArr {
 	public static void main(String[] args) {
 		int[] ages = { 19, 21, 22, 23, 24, 25 };
 		System.out.println(arrayContains(ages, 21));
 		String[] newString = { "hi", "bye", "yes" };
-		System.out.println(Arrays.toString(addElement(newString, "hello", 1)));
+		System.out.println(Arrays.toString(addElement(newString, "hello",2)));
 
 	}
 

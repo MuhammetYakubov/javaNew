@@ -1,4 +1,4 @@
-package methods;
+package returnMethods;
 
 public class arraysToString {
 	public static void main(String[] args) {
