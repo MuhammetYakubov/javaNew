@@ -23,7 +23,7 @@ public static void main(String[] args) {
 	        System.out.println(midOdd);
 	        String midEven = str2.substring(newString-1, newString+1).toUpperCase();
 	        int isOdd = str2.length()%2;    
-	        
+	       
 	        if (str2.length() >=3 && isOdd != 0) {
 	            //String mid = str2.charAt(i).toUpperCase();
 	         System.out.println(first + midOdd + last);
