@@ -23,8 +23,9 @@ public class OnSaleItem extends Item {
      * - assigns discount
      */
     public OnSaleItem(String name,int quantity,int catalogNumber,double price, double discount) {
-    this.getName(name);
-    this.getQuantity(quantity);
+    	 super(name,quantity,catalogNumber,price);
+         this.discount = discount;
+         setPrice(price - (price * discount / 100));
     
     	
     }
