@@ -179,7 +179,7 @@ public class TJMaxx {
     		Item item = regularItems.get(i);
     		if(item.getCatalogNumber() == catalogNumber) {
     			item.setQuantity(item.getQuantity()-1);
-    		}
+    		}//
     		if(item.getQuantity() == 0) {
     			regularItems.remove(i);
     		}
