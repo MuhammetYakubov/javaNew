@@ -46,8 +46,9 @@ public class StringBuilderr {
 		StringBuilder sbb = new StringBuilder(s1);
 		String s=sbb.toString();
 		System.out.println(s);
+		System.out.println();
 }
 	
-	
+
 	 
 }
