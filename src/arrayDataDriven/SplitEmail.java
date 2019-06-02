@@ -22,5 +22,28 @@ public class SplitEmail {
 			else {
 				System.out.println("invalid email");
 			}
+			
+			
+//---------------------------------------------------------------------------------------->
+//			   if(email.contains("@")) {
+//		            String [] validMail = email.split("@");
+//		            if(validMail.length==2) {
+//		            System.out.println("Email id: "+validMail[0]+"\nEmail domain: "+validMail[1]);
+//		            }else {
+//		                System.out.println("invalid email");
+//		            }
+//		        }else  {
+//		            System.out.println("invalid email");
+//		        }
+//-------------------------------------------------------------------------------------------->
+//			    if(email.indexOf("@") < 0 || email.indexOf("@") < email.lastIndexOf("@")) {
+//	            System.out.println("invalid email");
+//	        } else {
+//	        String [] arr = email.split("@");
+//	        System.out.println("Email id: "  + arr[0]);
+//	        System.out.println("Email domain: " + arr[1]);
+//	    
+//	    
+//	  }
 		}
 }
