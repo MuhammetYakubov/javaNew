@@ -9,5 +9,5 @@ public class Catch1 {
             System.out.println("Invalid");
         }
         System.out.println("End of the programm");
-    }
+    }//
 }
