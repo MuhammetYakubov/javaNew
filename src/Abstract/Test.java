@@ -9,6 +9,7 @@ public class Test {
         ar.color = "blue";
         System.out.println(ar.color);
 
+
         ar.stepOnIt();
         ar.changeColor("white");
         System.out.println(ar.color);
@@ -21,5 +22,6 @@ public class Test {
 
         Humanscale h = new Humanscale();
         Collapsible c = h;
+
     }
 }
