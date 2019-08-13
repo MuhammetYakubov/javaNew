@@ -17,7 +17,7 @@ public class tainging1 {
         }else {
             return map;
         }
-    }
+    }//
 }
 
 
